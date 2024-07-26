@@ -7,7 +7,10 @@
     "imgPoster": "event1.jpg",
     "isFree": false,
     "description": "This is We The Fest",
-    "location": "Jakarta",
+    "location": {
+      "long": 106.7827090935093,
+      "lat": -6.26326708553454
+    },
     "CategoryId": 1,
     "UserId": 1
   },
@@ -20,7 +23,10 @@
     "imgPoster": "event2.jpg",
     "isFree": false,
     "description": "This is event DBL Indonesia",
-    "location": "Bandung",
+    "location": {
+      "long": 107.5904275402039,
+      "lat": -6.9439994342171225
+    },
     "CategoryId": 2,
     "UserId": 1
   },
@@ -33,7 +39,10 @@
     "imgPoster": "event3.jpg",
     "isFree": true,
     "description": "This is IT Fest",
-    "location": "Jakarta",
+    "location": {
+      "long": 106.78352565725567,
+      "lat": -6.25768668864294
+    },
     "CategoryId": 3,
     "UserId": 1
   }
