@@ -1,0 +1,32 @@
+[
+    { 
+        "email": "superadmin@gmail.com", 
+        "password": "password", 
+        "fullName": "super admin", 
+        "dateOfBirth" : "1998-09-25",
+        "phoneNumber": "081294150023",
+        "address" : "Jl. Raya Bogor, No. 12, Jakarta Selatan",
+        "avatar" : "https://www.w3schools.com/howto/img_avatar.png",
+        "role": "super admin"
+    },
+    { 
+        "email": "admin@gmail.com", 
+        "password": "password", 
+        "fullName": "admin biasa", 
+        "dateOfBirth" : "2000-07-04",
+        "phoneNumber": "081294150000",
+        "address" : "Jl. Raya Bahari, No. 12, Jakarta Selatan",
+        "avatar" : "https://www.w3schools.com/howto/img_avatar.png",
+        "role": "admin"
+    },
+        {
+          "email": "user@gmail.com",
+          "password": "password",
+          "fullName": "User biasa",
+          "dateOfBirth": "2001-11-13",
+          "phoneNumber": "08111970023",
+          "address": "Jl. Panjang , No. 12, Jakarta Barat",
+          "avatar": "https://www.w3schools.com/howto/img_avatar.png",
+          "role": "user"
+        }
+]

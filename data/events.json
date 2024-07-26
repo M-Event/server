@@ -1,0 +1,40 @@
+[
+  {
+    "name": "We The Fest",
+    "quantity": 100,
+    "price": 500000,
+    "eventDate": "2024-07-30",
+    "imgPoster": "event1.jpg",
+    "isFree": false,
+    "description": "This is We The Fest",
+    "location": "Jakarta",
+    "CategoryId": 1,
+    "UserId": 1
+  },
+
+  {
+    "name": "DBL Indonesia",
+    "quantity": 50,
+    "price": 250000,
+    "eventDate": "2024-09-25",
+    "imgPoster": "event2.jpg",
+    "isFree": false,
+    "description": "This is event DBL Indonesia",
+    "location": "Bandung",
+    "CategoryId": 2,
+    "UserId": 1
+  },
+
+  {
+    "name": "IT Fest",
+    "quantity": 200,
+    "price": 0,
+    "eventDate": "2024-12-25",
+    "imgPoster": "event3.jpg",
+    "isFree": true,
+    "description": "This is IT Fest",
+    "location": "Jakarta",
+    "CategoryId": 3,
+    "UserId": 1
+  }
+]

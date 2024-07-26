@@ -1,0 +1,8 @@
+npx sequelize db:create
+
+=> npx sequelize model:generate --name User --attributes email:string,password:string,fullName:string,dateOfBirth:string,phoneNumber:string,address:string,avatar:string,role:string
+=> npx sequelize model:generate --Category --attributes name:string
+=> npx sequelize model:generate --Event --attributes name:string,quantity:integer,price:integer,eventDate:string,imgPoster:string,isFree:boolean,description:string,location:geometry,CategoryId:integer,UserId:integer
+=> npx sequelize model:generate --Transaction --attributes OrderId:string,ticketQuantity:integer,grandTotal:integer,paymentStatus:string,UserId:integer,EventId:integer
+
+=> backup folder migration dan models ketika ada harus apus db (ambil associatenya dan addPostgis)
